@@ -1,0 +1,58 @@
+.container { 
+    display: flex;
+    justify-content: center;
+   
+}
+.quadro{ 
+    justify-content: center;
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+    margin: 0 20px;
+
+}
+.quadro h4 { 
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.quadro1 { 
+    display:flex;
+    justify-content: center;
+}
+
+.quadro2 input { 
+    width: 50px;
+     margin: 0 10px;
+}
+ .quadro2 { 
+    display: flex;
+  justify-content: center;
+    
+}  
+.tabela { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#botao { 
+    width: 50px;
+    margin: 10px;
+}
+
+#n1, #n2, #n3 { 
+    width: 30px;
+    margin: 0 5px;
+}
+
+.tabela input {
+
+    margin:5px;
+ }
+ #tabela1{
+    border: 1px solid black; 
+    
+ }

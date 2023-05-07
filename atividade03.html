@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 03</title>
+    <link rel="stylesheet" type="text/css" href="css/site.css">
+    <script src="js/site.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="quadro">
+
+            <h4>Crie um objeto JSON com informações sobre uma pessoa, como nome, idade e endereço </h4>
+            <div class="tabela">
+                <pre id="jsonOutput"></pre>
+                <input type="button" value="Clique Aqui!!!!!" onclick="retornaJson()">;
+            </div>
+
+
+        </div>
+        <div class="quadro">
+            <h4>Crie uma função que recebe um objeto JSON com informações
+                de um produto e retorna uma string com o nome
+                e o preço do produto. </h4>
+            <div class="tabela">
+                <label>Produto: </label><input type="text" id="prod" readonly>
+                <label>Valor: </label><input type="text" id="valor" readonly>
+                <input type="button" id="botao" value="Enviar" onclick="retornaDescricao()">
+            </div>
+        </div>
+        <div class="quadro">
+            <h4>Crie uma função que recebe um array de objetos JSON com informações
+                de produtos e retorna uma string com o nome e o preço de cada um dos produtos.</h4>
+            <div class="tabela">
+                <label>Produto: </label>
+                <select id="selecionar">
+                    <option value="">Escolha</option>
+                    <option value="notebookAcer">Notebook Acer</option>
+                    <option value="notebookLenovo">Notebook Lenovo</option>
+                    <option value="notebookPositivo">Notebook Positivo</option>
+                    <label>Valor: </label><input type="text" id="valor2" readonly>
+                    <input type="button" value="Enviar" id="botao" onclick="retornaValor()">
+
+                </select>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
